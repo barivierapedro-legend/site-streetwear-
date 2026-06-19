@@ -1,1 +1,50 @@
+/* Importando fontes modernas do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Space+Grotesk:wght@400;700&display=swap');
 
+/* Configurações Gerais / Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #0a0a0a; /* Preto profundo e clean */
+    color: #ffffff;
+    font-family: 'Space Grotesk', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Títulos marcantes no estilo Streetwear */
+h1, h2, h3, .logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+/* Cabeçalho (Navbar) */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 8%;
+    background-color: rgba(10, 10, 10, 0.95);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid #1a1a1a;
+}
+
+.logo {
+    font-size: 1.6rem;
+    font-style: italic;
+}
+
+.logo span {
+    color: #ff0022; /* Vermelho vivo para contraste */
+}
+
+nav
